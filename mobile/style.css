@@ -1,0 +1,189 @@
+*{
+ box-sizing: border-box;
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --white-color: white;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+header img{
+    margin-left: 100px;
+    
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    
+        
+}
+.nav ol li a:hover{
+text-decoration: underline;
+
+    
+}
+header nav ol{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+padding-left: 600px;
+}
+header nav ol li a{
+    color: var(--white-color);
+    text-decoration: none;
+    color: white;   
+}
+
+.t1{
+    width: 500px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: white solid;
+    gap: 20px;
+    font-size: 50px;
+    /* position: fixed; */
+}
+
+.t1 p{
+    font-size: 30px;
+    padding-left:  20px;
+    color:hsl(0, 0%, 100%);
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.part1{
+    margin-top: 130px;
+    margin-left: 100px;   
+}
+.part2{
+    background-image: url(../images/desktop/image-interactive.jpg);
+    background-size: cover;
+    width: 100vh;
+    height: 400px;
+}
+.part3{
+height: 350px;
+width: 500px;
+background-color: white;
+margin-top: -50vh;
+margin-left: 500px;
+}
+.part3 h1{
+padding: 50px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.part3 p{
+padding-left: 50px;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+font-size: 30x;
+}
+.gbox{
+display: flex;
+margin-top: 50px;
+
+}
+.gbox h2{
+    padding-left: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40x;
+}
+.gbox button{
+margin-left: 130vh;
+width: 130px;
+height: 40px;
+border: black solid;
+font-family: 'Alata', sans-serif;
+
+}
+.gbox button:hover{
+    color: white;
+    background-color: black;
+}
+.gbox3{
+    display: flex;
+    }
+.ft{
+height: 200px;
+background-color: black;
+margin-top: 150px;
+padding-left: 70px;
+display: flex;
+}
+.gbox4 img{
+padding-top: 40px;
+margin-left: 40px;
+height: 70px;
+
+}
+.gbox4 ol{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+footer .gbox4 ol li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);  
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+.ibox{
+justify-content: flex-end;
+}
+.attribution { 
+    font-size: 11px;
+    text-align:end;
+ }
+.gbox2{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    
+}
+.gbox3{
+display: flex;
+gap: 30px;
+margin-top: 30px;
+margin-left: 100px;
+}
+.gallery{
+    position: relative;
+    color:hsl(0, 0%, 100%);
+}
+.g1{
+position: absolute;
+margin-top: 360px;
+margin-left: 50px;
+font-family: 'Josefin Sans', sans-serif;
+color: hsl(0, 0%, 100%);
+font-size: 10px;
+}
+/* mobile display */
+@media screen and(min-width:720px){
+    header{
+        background-image: url(../images/desktop/image-hero.jpg);
+    }
+header ol{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+.nav-toggler{
+    display: none;
+}
+}
+header nav{
+    display: flex;
+}
