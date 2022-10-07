@@ -36,12 +36,14 @@ header nav ol{
     display: flex;
     list-style-type: none;
     gap: 20px;
-padding-left: 600px;
+    padding-left: 600px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 header nav ol li a{
     color: var(--white-color);
     text-decoration: none;
-    color: white;   
+    color: hsl(0, 0%, 100%);   
 }
 
 .t1{
@@ -75,7 +77,7 @@ header nav ol li a{
 .part3{
 height: 350px;
 width: 500px;
-background-color: white;
+background-color: hsl(0, 0%, 100%);
 margin-top: -50vh;
 margin-left: 500px;
 }
@@ -114,37 +116,7 @@ font-family: 'Alata', sans-serif;
 .gbox3{
     display: flex;
     }
-.ft{
-height: 200px;
-background-color: black;
-margin-top: 150px;
-padding-left: 70px;
-display: flex;
-}
-.gbox4 img{
-padding-top: 40px;
-margin-left: 40px;
-height: 70px;
 
-}
-.gbox4 ol{
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-}
-footer .gbox4 ol li a{
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);  
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-}
-.ibox{
-justify-content: flex-end;
-}
-.attribution { 
-    font-size: 11px;
-    text-align:end;
- }
 .gbox2{
     display: flex;
     gap: 30px;
@@ -169,6 +141,47 @@ font-family: 'Josefin Sans', sans-serif;
 color: hsl(0, 0%, 100%);
 font-size: 10px;
 }
+.ft{
+    height: 200px;
+    background-color: black;
+    margin-top: 150px;
+    padding-left: 70px;
+    display: flex;
+    gap: 90vh;
+    }
+    .gbox4 img{
+    padding-top: 40px;
+    margin-left: 40px;
+    height: 70px;
+    
+    }
+    .gbox4 ol{
+        display: flex;
+        list-style-type: none;
+        gap: 30px;
+    }
+    footer .gbox4 ol li a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);  
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+    }
+    .ibox{
+     padding-top: 30px;
+    }
+    .ibox p{
+        color: hsl(0, 0%, 55%);
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-left: -120px;
+    }
+    .ibox img{
+        margin-left: 10px;
+        width: 20px;
+    }
+
+    
 /* mobile display */
 @media screen and(min-width:720px){
     header{
